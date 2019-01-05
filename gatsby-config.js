@@ -1,11 +1,12 @@
 module.exports = {
+  pathPrefix: `/urban-consciousness`,
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
+    title: `Plan to take over the world!`,
+    author: `Purple Tentacle`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://chpmnrssll.github.io/urban-consciousness/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `purpletentacle`,
     },
   },
   plugins: [
@@ -57,7 +58,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Purple Tentacle's Gatsby Site`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
