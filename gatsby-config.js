@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: `Plan to take over the world!`,
     author: `Purple Tentacle`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `And a few other things.`,
     siteUrl: `https://chpmnrssll.github.io/urban-consciousness/`,
     social: {
       twitter: `purpletentacle`,
@@ -58,13 +58,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Purple Tentacle's Gatsby Site`,
-        short_name: `GatsbyJS`,
+        name: `Purple Tentacle's Plan to take over the world`,
+        short_name: `PurpleTenacle`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/purple_tentacle.png`,
       },
     },
     `gatsby-plugin-offline`,
